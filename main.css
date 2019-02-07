@@ -1,0 +1,38 @@
+.box {
+    position: relative;
+}
+
+.small {
+    position: relative;
+    width: 400px;
+}
+
+.small img {
+    width: 100%;
+}
+
+.big {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 400px;
+    overflow: hidden;
+    display: none;
+    /* visibility: hidden; */
+}
+
+.mask {
+    width: 150px;
+    height: 150px;
+    opacity: 0.5;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: move;
+    display: none;
+    /* important! */
+    pointer-events: none;
+    /* visibility: hidden; */
+}
